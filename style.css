@@ -29,8 +29,12 @@ body {
 .wrapper h3 {
     text-align: center;
     font-size: 20px;
+    padding: 2px 0;
     font-family: "Cormorant SC", serif;
-
+    background :rgb(0, 183, 255);
+    color: white;
+    border: none;
+    border-radius: 10px;
 }
 
 .textPlace {
