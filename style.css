@@ -17,13 +17,12 @@ body {
 .wrapper {
     width: 360px;
     background: #fff;
-    border: 1px solid black;
     padding: 10px 15px;
-    margin-top: 150px;
+    margin: 280px 20px 20px 20px;
     gap: 5px;
     display: flex;
     flex-direction: column;
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.6);
     border-radius: 15px;
 }
 
