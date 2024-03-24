@@ -20,7 +20,7 @@ body {
     border: 1px solid black;
     padding: 10px 15px;
     margin-top: 150px;
-    gap: 10px;
+    gap: 5px;
     display: flex;
     flex-direction: column;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
@@ -37,6 +37,7 @@ body {
 .textPlace {
     display: flex;
     flex-direction: column;
+    gap: 5px;
     
 }
 
@@ -58,10 +59,6 @@ button {
     border: none;
     padding:10px 0;
     cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 5px;
 }
 
 button:hover {
@@ -70,4 +67,11 @@ button:hover {
 
 button .icon {
     font-size: 14px;
+}
+
+select {
+    border-radius: 10px;
+    border: 1px solid #000;
+    padding:8px 0;
+    cursor: pointer;
 }
