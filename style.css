@@ -8,7 +8,7 @@
 }
 
 body {
-    background: rgb(0, 183, 255);
+    background :radial-gradient(rgb(0, 0, 0),rgb(0, 183, 255)) ;
     display: flex;
     justify-content: center;
     align-items: center;
