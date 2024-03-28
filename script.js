@@ -16,9 +16,7 @@ const textToSpeech = () => {
         }
     }
     speech.speak(utterSpeech);
-  } else {
-    isSpeaking = false;
-  }
+  } 
 
   if (text.length > 50) {
     if (speech.speaking && isSpeaking) {
