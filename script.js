@@ -1,7 +1,6 @@
 const textArea = document.querySelector("textarea");
 const button = document.querySelector("button");
 const select = document.querySelector("select");
-// let voices = [];
 let isSpeaking = true;
 let speech = window.speechSynthesis;
 
